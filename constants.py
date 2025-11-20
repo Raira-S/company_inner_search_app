@@ -56,6 +56,13 @@ WEB_URL_LOAD_TARGETS = [
     "https://generative-ai.web-camp.io/"
 ]
 
+# ==========================================
+# Retriever設定系
+# ==========================================
+TEXT_SPLIT_CHUNK_SIZE = 500
+TEXT_SPLIT_CHUNK_OVERLAP = 50
+RETRIEVER_SEARCH_K = 5
+
 
 # ==========================================
 # プロンプトテンプレート
